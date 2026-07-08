@@ -1,40 +1,20 @@
 class Solution {
-    // Function to find minimum coins
     public int coinChange(int[] coins, int amount) {
-        // Creating dp array initialized with -2
+
         int[] dp = new int[amount + 1];
-        Arrays.fill(dp, -2);
 
-        // Calling helper function
-        return helper(coins, amount, dp);
-    }
+        Arrays.fill(dp, amount + 1);
 
-    // Helper recursive function
-    private int helper(int[] coins, int rem, int[] dp) {
-        // If remaining amount is zero
-        if (rem == 0) return 0;
+        dp[0] = 0;
 
-        // If remaining amount is negative
-        if (rem < 0) return -1;
-
-        // If already computed
-        if (dp[rem] != -2) return dp[rem];
-
-        // Initialize minimum with large value
-        int mini = Integer.MAX_VALUE;
-
-        // Try every coin
-        for (int coin : coins) {
-            // Recursive call
-            int res = helper(coins, rem - coin, dp);
-
-            // If result is valid
-            if (res >= 0 && res < mini)
-                mini = 1 + res;
+        for (int i = 1; i <= amount; i++) {
+            for (int coin : coins) {
+                if (coin <= i) {
+                    dp[i] = Math.min(dp[i], dp[i - coin] + 1);
+                }
+            }
         }
 
-        // Store result in dp
-        dp[rem] = (mini == Integer.MAX_VALUE) ? -1 : mini;
-        return dp[rem];
+        return dp[amount] > amount ? -1 : dp[amount];
     }
 }
