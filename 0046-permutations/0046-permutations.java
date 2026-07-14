@@ -1,37 +1,29 @@
 class Solution {
-      private void backtrack(int[] nums, boolean[] used,
-                           List<Integer> current, List<List<Integer>> result) {
-        // If current permutation is complete
-        if (current.size() == nums.length) {
-            result.add(new ArrayList<>(current));
-            return;
+    public List<List<Integer>> permute(int[] nums) {
+        List<List<Integer>> ans =new ArrayList<>();
+        int index=0;
+       recursePermute(index,nums,ans);
+       return ans;
+    }
+    private void recursePermute(int index,int[] nums,List<List<Integer>> ans){
+        if(index==nums.length){
+        List<Integer> ds=new ArrayList<>();
+        for(int i=0;i<nums.length;i++){
+            ds.add(nums[i]);
         }
+        ans.add(new ArrayList<>(ds));
+        return;
+        }
+        for(int i=index;i<nums.length;i++){
+            swap(i,index, nums);
+            recursePermute(index+1,nums,ans);
+            swap(i,index,nums);
 
-        // Iterate over all elements
-        for (int i = 0; i < nums.length; i++) {
-            // Skip already used elements
-            if (used[i]) continue;
-
-            // Include this element
-            used[i] = true;
-            current.add(nums[i]);
-
-            // Recurse for next element
-            backtrack(nums, used, current, result);
-
-            // Backtrack: remove element and mark unused
-            current.remove(current.size() - 1);
-            used[i] = false;
         }
     }
-
-    // Function to return all permutations
-    public List<List<Integer>> permute(int[] nums) {
-        List<List<Integer>> result = new ArrayList<>();
-        List<Integer> current = new ArrayList<>();
-        boolean[] used = new boolean[nums.length];
-
-        backtrack(nums, used, current, result);
-        return result;
+    private void swap(int i,int j,int[] nums){
+        int temp=nums[i];
+        nums[i]=nums[j];
+        nums[j]=temp;
     }
 }
