@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/ayush786hack/DSA/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ayush786hack/DSA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0242-valid-anagram](https://github.com/ayush786hack/DSA/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/ayush786hack/DSA/tree/master/0347-top-k-frequent-elements) |
 ## Stack
 |  |
 | ------- |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/ayush786hack/DSA/tree/master/0051-n-queens) |
 | [0090-subsets-ii](https://github.com/ayush786hack/DSA/tree/master/0090-subsets-ii) |
 | [0322-coin-change](https://github.com/ayush786hack/DSA/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/ayush786hack/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0455-assign-cookies](https://github.com/ayush786hack/DSA/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/ayush786hack/DSA/tree/master/0485-max-consecutive-ones) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ayush786hack/DSA/tree/master/0540-single-element-in-a-sorted-array) |
@@ -87,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/ayush786hack/DSA/tree/master/0015-3sum) |
 | [0242-valid-anagram](https://github.com/ayush786hack/DSA/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/ayush786hack/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0455-assign-cookies](https://github.com/ayush786hack/DSA/tree/master/0455-assign-cookies) |
 ## Dynamic Programming
 |  |
@@ -133,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/ayush786hack/DSA/tree/master/0004-median-of-two-sorted-arrays) |
+| [0347-top-k-frequent-elements](https://github.com/ayush786hack/DSA/tree/master/0347-top-k-frequent-elements) |
 ## String
 |  |
 | ------- |
@@ -155,4 +159,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ayush786hack/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0686-repeated-string-match](https://github.com/ayush786hack/DSA/tree/master/0686-repeated-string-match) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/ayush786hack/DSA/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/ayush786hack/DSA/tree/master/0347-top-k-frequent-elements) |
+## Counting
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/ayush786hack/DSA/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/ayush786hack/DSA/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
