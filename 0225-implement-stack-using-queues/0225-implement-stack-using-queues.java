@@ -2,8 +2,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 class MyStack {
-    Queue<Integer> q1 = new LinkedList<>();
-    Queue<Integer> q2 = new LinkedList<>();
+    Queue<Integer> q = new LinkedList<>();
+
 
     public MyStack() {
         
@@ -11,31 +11,26 @@ class MyStack {
     
    
     public void push(int x) {
-        
-        while (!q1.isEmpty()) {
-            q2.add(q1.remove());
-        }
-        
-        
-        q1.add(x);
-        
-       
-        while (!q2.isEmpty()) {
-            q1.add(q2.remove());
+        int size=q.size();
+        q.add(x);
+        for(int i=0;i<size;i++){
+            q.add(q.peek());
+            q.remove();
         }
     }
+    
     
 
     public int pop() {
-        return q1.remove(); 
+        return q.remove(); 
     }
     
     public int top() {
-        return q1.peek();
+        return q.peek();
     }
     
    
     public boolean empty() {
-        return q1.isEmpty();
+        return q.isEmpty();
     }
 }
