@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/ayush786hack/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/ayush786hack/DSA/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/ayush786hack/DSA/tree/master/0234-palindrome-linked-list) |
+| [0402-remove-k-digits](https://github.com/ayush786hack/DSA/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/ayush786hack/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ayush786hack/DSA/tree/master/0503-next-greater-element-ii) |
 ## Array
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/ayush786hack/DSA/tree/master/0042-trapping-rain-water) |
+| [0402-remove-k-digits](https://github.com/ayush786hack/DSA/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/ayush786hack/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ayush786hack/DSA/tree/master/0503-next-greater-element-ii) |
 ## Breadth-First Search
@@ -120,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0402-remove-k-digits](https://github.com/ayush786hack/DSA/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/ayush786hack/DSA/tree/master/0455-assign-cookies) |
 ## Backtracking
 |  |
@@ -162,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/ayush786hack/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/ayush786hack/DSA/tree/master/0165-compare-version-numbers) |
 | [0242-valid-anagram](https://github.com/ayush786hack/DSA/tree/master/0242-valid-anagram) |
+| [0402-remove-k-digits](https://github.com/ayush786hack/DSA/tree/master/0402-remove-k-digits) |
 | [0686-repeated-string-match](https://github.com/ayush786hack/DSA/tree/master/0686-repeated-string-match) |
 ## Trie
 |  |
