@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/ayush786hack/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ayush786hack/DSA/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ayush786hack/DSA/tree/master/0540-single-element-in-a-sorted-array) |
+| [0994-rotting-oranges](https://github.com/ayush786hack/DSA/tree/master/0994-rotting-oranges) |
 ## Sorting
 |  |
 | ------- |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/ayush786hack/DSA/tree/master/0322-coin-change) |
+| [0994-rotting-oranges](https://github.com/ayush786hack/DSA/tree/master/0994-rotting-oranges) |
 ## Greedy
 |  |
 | ------- |
@@ -141,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/ayush786hack/DSA/tree/master/0037-sudoku-solver) |
+| [0994-rotting-oranges](https://github.com/ayush786hack/DSA/tree/master/0994-rotting-oranges) |
 ## Binary Search
 |  |
 | ------- |
