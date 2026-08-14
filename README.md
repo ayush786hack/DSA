@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/ayush786hack/DSA/tree/master/0051-n-queens) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ayush786hack/DSA/tree/master/0084-largest-rectangle-in-histogram) |
 | [0090-subsets-ii](https://github.com/ayush786hack/DSA/tree/master/0090-subsets-ii) |
+| [0239-sliding-window-maximum](https://github.com/ayush786hack/DSA/tree/master/0239-sliding-window-maximum) |
 | [0322-coin-change](https://github.com/ayush786hack/DSA/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/ayush786hack/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0455-assign-cookies](https://github.com/ayush786hack/DSA/tree/master/0455-assign-cookies) |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/ayush786hack/DSA/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/ayush786hack/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/ayush786hack/DSA/tree/master/0347-top-k-frequent-elements) |
 ## Bucket Sort
@@ -218,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/ayush786hack/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/ayush786hack/DSA/tree/master/0232-implement-queue-using-stacks) |
+| [0239-sliding-window-maximum](https://github.com/ayush786hack/DSA/tree/master/0239-sliding-window-maximum) |
 ## Bracket Sequences
 |  |
 | ------- |
@@ -230,4 +233,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/ayush786hack/DSA/tree/master/0084-largest-rectangle-in-histogram) |
+| [0239-sliding-window-maximum](https://github.com/ayush786hack/DSA/tree/master/0239-sliding-window-maximum) |
+## Sliding Window
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/ayush786hack/DSA/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/ayush786hack/DSA/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
